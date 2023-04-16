@@ -11,7 +11,6 @@ dashboard, or admin panel solution for upcoming web projects.
 - 50+ Total UI Elements 
 - 10+ HTML Files
 - Basic UI Kit Elements and Files
-- Figma Design Source - Free Sample
 ___
 
 
