@@ -4,7 +4,7 @@ open-source admin dashboard template built on **React and Tailwind CSS**, provid
 dashboard, or admin panel solution for upcoming web projects.
 
 
-### [✨ Visit Website](https://www.mfahadiqbal.com/)
+### [✨ Visit Website](https://admin-dashboard-template-beryl.vercel.app/)
 
 - 1 Unique Dashboard
 - 30+ Dashboard UI Components
