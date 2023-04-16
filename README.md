@@ -20,7 +20,7 @@ If you're looking for a high-quality **React-Tailwind Dashboard, Admin Panel Tem
 
 ## Installation
 
-You'll need to install Node.js >=v14.16+ (Recommended Version) (NPM comes along with it) and TailAdmin uses **Vite** for frontend tooling, to peform installation and building production version, please follow these steps from below:
+You'll need to install Node.js >=v14.16+ (Recommended Version) (NPM comes along with it) and its uses **Vite** for frontend tooling, to peform installation and building production version, please follow these steps from below:
 
 - Use terminal and navigate to the project root.
 
