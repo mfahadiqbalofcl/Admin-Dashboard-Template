@@ -1,41 +1,70 @@
-# React Tailwind Admin Dashboard Template
+# React + Tailwind Admin Dashboard Template
 
-open-source admin dashboard template built on **React and Tailwind CSS**, providing developers with everything they need to create a comprehensive, data-driven back-end, 
-dashboard, or admin panel solution for upcoming web projects.
+A responsive admin dashboard UI built with **React 18**, **Vite**, and **Tailwind CSS**. It ships a single polished dashboard layout plus a library of reusable, copy-paste UI components — charts, tables, forms, cards, dropdowns, switchers, a calendar, profile/settings pages, and authentication screens.
 
+> Frontend only: this is a presentation/UI template. There is no backend, no API integration, and no data persistence — the auth screens and tables are static UI.
 
-### [✨ Visit Website](https://admin-dashboard-template-beryl.vercel.app/)
+**Live demo:** https://admin-dashboard-template-beryl.vercel.app/
 
-- 1 Unique Dashboard
-- 30+ Dashboard UI Components
-- 50+ Total UI Elements 
-- 10+ HTML Files
-- Basic UI Kit Elements and Files
-___
+## Screenshot
 
+<!-- Add a screenshot of the dashboard here -->
+![Dashboard screenshot](./screenshot.png)
 
-React dashboard template based on Tailwind CSS is a pre-designed starting point for building a web-based dashboard using the React JavaScript library and the Tailwind CSS utility-first framework. This Tailwind CSS + React Dashboard Template - built using Tailwind CSS and **includes pre-built components, such as navigation menus, charts, tables, and forms, which can be easily customized and integrated into a small-to-large React web application**.
+## Tech stack
 
-If you're looking for a high-quality **React-Tailwind Dashboard, Admin Panel Template, or UI Kit**, React-Tailwind Dashboard will be the perfect choice for you!
+- React 18
+- Vite 4 (dev server + build)
+- Tailwind CSS 3 (+ PostCSS, Autoprefixer)
+- React Router 6
+- ApexCharts (via `react-apexcharts`) for charts
+- jsVectorMap for the map widget
 
-## Installation
+## Features
 
-You'll need to install Node.js >=v14.16+ (Recommended Version) (NPM comes along with it) and its uses **Vite** for frontend tooling, to peform installation and building production version, please follow these steps from below:
+- Dashboard layout with sidebar, header, and dark-mode toggle
+- Reusable components: stat cards, charts, data tables, dropdowns, checkboxes, switchers
+- Form elements and form-layout pages
+- Auth screens (Sign In / Sign Up) — static UI
+- Calendar, Profile, Settings, and UI-element showcase pages
+- Self-hosted Satoshi font
 
-- Use terminal and navigate to the project root.
+## Getting started
 
-- Then run : <code>npm install</code>
+Requires Node.js 14.16+ (npm included).
 
-- Then run : <code>npm run dev</code>
+```bash
+# install dependencies
+npm install
 
-Now, in the browser go to <code>localhost:5173</code>
+# start the dev server (http://localhost:5173)
+npm run dev
+```
 
-**For Production Build**
-Run : <code>npm run build</code>
+## Production build
 
-Default build output directory: /dist
+```bash
+npm run build     # outputs to /dist
+npm run preview   # preview the production build locally
+```
 
-This command will generate a dist as build folder in the root of your template that you can upload to your server.
+Upload the contents of `/dist` to any static host (Vercel, Netlify, GitHub Pages, etc.).
 
-## Tons of React Tailwind Components for Dashboard
-React and Tailwind are two popular technologies that have taken the web development world by storm. React is a JavaScript library for building user interfaces, while Tailwind is a utility-first CSS framework that makes it easy to style web applications. TailAdmin React Offers 200+ Essential React + Tailwind CSS UI Components that you copy-paste and use with your dashboard projects. That includes - charts, graphs, navbars, tabs, buttons, cards, tables, profile, tabs, forms, modals, app pages, calender, web apps example templates and more... for React and Styled using Tailwind CSS
+## Project structure
+
+```
+src/
+  components/   reusable UI components (cards, charts, tables, dropdowns…)
+  pages/        page-level views (Dashboard, Auth, Forms, Tables, Settings…)
+  layout/       app shell / default layout
+  hooks/        custom hooks (color mode, local storage)
+  images/ fonts/ js/   static assets
+```
+
+## Credits
+
+Based on the open-source [TailAdmin](https://tailadmin.com) free React template.
+
+## License
+
+Released under the MIT License. See [LICENSE](./LICENSE).
